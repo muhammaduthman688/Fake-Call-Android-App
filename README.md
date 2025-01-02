@@ -60,3 +60,31 @@ This is my first project, made for practice, and is currently under development.
 ## **Contact me**
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%25D366.svg?logo=whatsapp&logoColor=white)](https://wa.me/923472554151) [![Gmail](https://img.shields.io/badge/Email-muhammadusman688%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:muhammadusman688@gmail.com)
 
+
+---
+## **Screenshots**
+
+### Main Screen
+![Main Screen](screenshot/MainScreen.jpg)
+
+### Navigation Drawer
+![Navigation Drawer](screenshot/NavigationDrawer.jpg)
+
+### Caller Information
+![Caller Info](screenshot/callerInfo.jpg)
+
+### Character Screen
+![Character Screen](screenshot/characterScreen.jpg)
+
+### Schedule Screen
+![Schedule Screen](screenshot/schedule.jpg)
+
+### Caller History
+![Caller History](screenshot/callerHistory.jpg)
+
+### Advanced Settings
+![Advanced Settings](screenshot/advanced%20setting.jpg)
+
+### Settings
+![Settings](screenshot/setting.jpg)
+

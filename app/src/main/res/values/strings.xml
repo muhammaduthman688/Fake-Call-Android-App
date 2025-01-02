@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fake Call</string>
+    <string name="Caller_Info">Caller Info</string>
+    <string name="Caller_history">Call History</string>
+    <string name="Settings">Setting</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="quit">Quit</string>
+    <string name="share">Share</string>
+    <string name="raettingiconte_us">Rate us</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="caller_information">Caller Information</string>
+    <string name="call_history">Call History</string>
+    <string name="advance_settings">Advance settings</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="favorite">favorite</string>
+    <string name="home">Home</string>
+    <string name="add_to_contact">add to contact</string>
+    <string name="logout">Logout</string>
+</resources>

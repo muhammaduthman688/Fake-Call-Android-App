@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/seting"
+            android:title="@string/Caller_Info" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/seting"
+            android:title="@string/Caller_history" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/seting"
+            android:title="@string/Settings" />
+        <item
+            android:id="@+id/nav_moreapps"
+            android:icon="@drawable/seting"
+            android:title="@string/privacy_policy" />
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/seting"
+            android:title="@string/raettingiconte_us" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/seting"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_quit"
+            android:icon="@drawable/seting"
+            android:title="@string/quit" />
+    </group>
+</menu>

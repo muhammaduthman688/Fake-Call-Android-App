@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="37dp"
+    android:height="37dp"
+    android:viewportWidth="37"
+    android:viewportHeight="37">
+
+    <path
+        android:fillColor="#FF9A06"
+        android:fillAlpha="0.9"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="1"
+        android:pathData="M0 18.3493C0 8.21525 8.21525 0 18.3493 0C28.4833 0 36.6986 8.21525 36.6986 18.3493C36.6986 28.4833 28.4833 36.6986 18.3493 36.6986C8.21525 36.6986 0 28.4833 0 18.3493Z" />
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#2D2D2D"
+        android:strokeWidth="1.35921"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M18.3891 14.543V22.2349" />
+    <path
+        android:fillColor="#000000"
+        android:strokeColor="#2D2D2D"
+        android:strokeWidth="1.35921"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M22.239 18.3893H14.5391" />
+    <path
+
+        android:fillType="evenOdd"
+        android:strokeColor="#2D2D2D"
+        android:strokeWidth="1.35921"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M7.91211 18.3888C7.91211 10.5315 10.532 7.91162 18.3893 7.91162C26.2467 7.91162 28.8665 10.5315 28.8665 18.3888C28.8665 26.2462 26.2467 28.8661 18.3893 28.8661C10.532 28.8661 7.91211 26.2462 7.91211 18.3888Z" />
+</vector>

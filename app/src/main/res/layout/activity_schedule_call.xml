@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Schedule_Call">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:fontFamily="@font/poppins_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/back_btn6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="40dp"
+                app:srcCompat="@drawable/back_icon" />
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Schedule Call"
+                android:textColor="#FBFBFB"
+                android:textSize="21sp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="202dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="105dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Schedule Call"
+            android:textColor="@color/textcolor"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sec30"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="171dp">
+
+        <TextView
+            android:id="@+id/tv30sec"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="30 Seconds"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min1"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="234dp">
+
+        <TextView
+            android:id="@+id/tv1min"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="1 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min5"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <TextView
+            android:id="@+id/tv5min"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="5 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min10"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <TextView
+            android:id="@+id/tv10min"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="10 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min15"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="171dp">
+
+        <TextView
+            android:id="@+id/tv15min"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="15 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min20"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="20 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min25"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="171dp">
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="25 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/min30"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="234dp">
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="30 Minutes"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addtime"
+        android:layout_width="103dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_border"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="234dp">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="81dp"
+            android:layout_height="17dp"
+            android:fontFamily="@font/inter_medium"
+            android:text="Add Time"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/flow"
+        android:layout_width="331dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="400dp"
+        android:orientation="horizontal"
+        app:constraint_referenced_ids="sec30,min1,min5,min10,min15,min20,min25,min30,addtime"
+        app:flow_maxElementsWrap="3"
+        app:flow_horizontalGap="5dp"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#393939"
+                app:itemIconTint="@color/textcolor"
+                app:itemTextColor="@color/textcolor"
+                app:menu="@menu/btm_nav_bar"
+
+
+                />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

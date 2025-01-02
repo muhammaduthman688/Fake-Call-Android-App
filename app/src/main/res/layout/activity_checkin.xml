@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".checkin">
+
+    <Button
+        android:id="@+id/btmsheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="157dp"
+        android:backgroundTint="@drawable/bg_new"
+        android:text="btm sheet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/boyfreind"
+        app:civ_border_color="#D62F2F"
+        app:civ_border_width="2dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/coordinatorLayout">
+
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 1, Column 1" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 1, Column 2" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 1, Column 3" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 2, Column 1" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 2, Column 2" />
+
+            <TextView
+                android:padding="8dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/text_border"
+                android:text="Row 2, Column 3" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 3, Column 1" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 3, Column 2" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Row 3, Column 3" />
+        </TableRow>
+
+    </TableLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_btm_navi"
+            app:itemIconTint="@color/textcolor"
+            app:itemTextColor="@color/textcolor"
+            app:menu="@menu/btm_nav_bar"
+
+
+            />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

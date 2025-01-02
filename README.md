@@ -46,7 +46,11 @@
   As my first app, the coding level reflects a beginner's approach but demonstrates learning and practical implementation of Android concepts.
 
 ---
+## **Note**
 
+This is my first project, made for practice, and is currently under development.
+
+---
 ## **How to Use**
 
 1. **Clone the Repository**  
